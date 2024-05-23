@@ -12,14 +12,14 @@ Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. 
 - een Tru Components TC-9072548 Sensormodule (pinnenbord)
 - Micro USB-kabel
 - 4 bestanden (een HTML, CSS en JavaScript bestand)
-- als je dit project dowload, zitten deze bestanden al in de folder **pinmodule-voorbeeld**)!!
+- als je dit project dowload, zitten deze bestanden al in de folder **pinnen-voorbeeld**)!!
 - de HEX file met de code voor de Micro:bit
 
 
 
 ## 1. Voorbereiding
 
-Download de folder **pinmodule-voorbeeld** naar je laptop. Daar zitten de 3 bestanden al in die je nodig hebt (HTML, CSS en JavaScript) Of je maakt zelf een folder aan op je latop en plaats daar onderstaande bestanden in:
+Download de folder **pinnen-voorbeeld** naar je laptop. Daar zitten de 3 bestanden al in die je nodig hebt (HTML, CSS en JavaScript) Of je maakt zelf een folder aan op je latop en plaats daar onderstaande bestanden in:
 
 #### 2. Bestanden Plaatsen
 
