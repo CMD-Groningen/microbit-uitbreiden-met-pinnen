@@ -3,7 +3,7 @@
 
 https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1db22cac-5a21-40f8-b2c6-d2d7c5012b52
 
-Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de Micro:bit code te downloaden naar de Micro:bit met de aangesloten **Tru Components TC-9072548 Sensormodule** (hieronder meer daarover)
+In deze tutorial zit een werkend voorbeeld van hoe je een HTML pagina met interface elementen of andere content daarin (animaties, audio, video) kan bedienen of besturen met externe hardware, zoals fysieke knoppen, sliders of sensoren. We doen dit met een Micro:bit waarvan we de contactpunten uitbreiden. Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de Micro:bit code te downloaden naar de Micro:bit met de aangesloten **Tru Components TC-9072548 breakout board** (hieronder meer daarover)
 
 ## Voorkennis
 Als je dacht dat alleen Arduino's een heleboel pinnen hadden om hardware op aan te sluiten... De Micro:bit heeft er net zoveel, 22 pinnen! En het voordeel van de Micro:bit is ook nog eens dat er al veel hardware op zit die je als input kan gebruiken, zoals Bluetooth, bewegingssensoren, een speaker, compas, en een microfoon. En het heeft een veel simpelere editor.
@@ -31,23 +31,20 @@ Voor deze tutorial heb ik zelf de Tru Components TC-9072548 Sensormodule gebruik
 - een Micro:bit
 - een Tru Components TC-9072548 Sensormodule (pinnenbord)
 - Micro USB-kabel
-- 4 bestanden (een HTML, CSS en JavaScript bestand)
+- 3 werkbestanden (een HTML, CSS en JavaScript bestand)
 - als je dit project dowload, zitten deze bestanden al in de folder **pinnen-voorbeeld**)!!
 - de HEX file met de code voor de Micro:bit
-
 
 
 ## 1. Voorbereiding
 
 Download de folder **pinnen-voorbeeld** naar je laptop. Daar zitten de 3 bestanden al in die je nodig hebt (HTML, CSS en JavaScript) Of je maakt zelf een folder aan op je latop en plaats daar onderstaande bestanden in:
 
-#### 2. Bestanden Plaatsen
-
 1. **HTML Bestand**:
 
-   - Maak een nieuw bestand in je project map genaamd **index.html** en plak de volgende code erin:
+Maak een nieuw bestand in je project map genaamd **index.html** en plak de volgende code erin:
 
-     ```html
+```html
      html
      Copy code
      <!DOCTYPE html>
@@ -68,11 +65,12 @@ Download de folder **pinnen-voorbeeld** naar je laptop. Daar zitten de 3 bestand
      </body>
      <script src="javascript.js"></script>
      </html>
-     ```
+```
 
 2. **CSS Bestand**:
 
-   - Maak een nieuw bestand in de project map genaamd **style.css** en voeg je CSS vormgeving toe:
+Maak een nieuw bestand in de project map genaamd **style.css** en voeg je CSS vormgeving toe:
+
 ```CSS
 body {
     margin: 0;
@@ -128,9 +126,9 @@ button {
 
 3. **JavaScript Bestand**:
 
-   - Maak een nieuw bestand in je project map genaamd **javascript.js** en plak de volgende code erin:
+Maak een nieuw bestand in je project map genaamd **javascript.js** en plak de volgende code erin:
 
-     ```javascript
+```javascript
      javascript
      Copy code
      // Define a function to handle key events
@@ -232,20 +230,17 @@ button {
      } else {
          console.log("Web Serial API wordt niet ondersteund door deze browser.");
      }
-     ```
-
+```
 
 
 ## 3. Micro:bit Voorbereiden
 
-1. **Verbind de Micro:bit** met je computer via een Micro USB-kabel.
-
-2. Upload de HEX file naar de 
-
-   - Open de HEX file genaamd **microbit_pinnen_lezen_slider.hex** in de Micro:bit MakeCode editor (door hem te slepen in de Makecode editor venster)
-   - Download daarna de code naar je Micro:bit.
-   - 
-De code in de HEX file staat hieronder. Je kan hem ook kopieren en plakken in de microbit editor
+- **Verbind de Micro:bit** met je computer via een Micro USB-kabel.
+- open de Micro:bit MakeCode editor en maak een nieuwe project aan
+- Open de HEX file genaamd **microbit_pinnen_lezen_slider.hex** in de Micro:bit MakeCode editor (door hem te slepen in het venster)
+- Dezelfde code van de HEX file staat ook hieronder. Je kan hem ook kopieren en plakken in de microbit editor!
+- Download daarna de code naar je Micro:bit!
+- Ontkoppel de Micro:bit door the klikken op "ontkoppel micro:bit rechts onderin de editor.
 
 ``` javascript
 let currentStateP9 = 0
@@ -325,22 +320,22 @@ in de code editor zien de blokken er zo uit nadat je de microbit code hebt gekop
 
 ## 4. Micro:bit met module verbinden met de Browser
 
-1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit. Steek vervolgens jumperkabels op de gele pinnen, dus PIN0, PIN1, PIN2, PIN8 en PIN9. Steek vervolgens ook een jumperkabel op 1 van de donkerblauwe pinnen, maakt niet specifiek uit welke (helemaal onderaan op de foto hieronder) 
+1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit. Steek vervolgens jumperkabels op de **gele pinnen, dus PIN0, PIN1, PIN2, PIN8 en PIN9**. Steek vervolgens 1 jumperkabel op 1 van de donkerblauwe pinnen, maakt niet specifiek uit welke (helemaal onderaan op de foto hieronder, waar staat "G") 
 
 PAS OP: steek niets in de rode pinnen!!
 
 <img src="documentatie/1200x1034.jpg">
 
-2. Verbinding Maken:
+## 5. Testen!
 
-   - Open je project in de browser via Live Server (VsCode).
+   - Open je project in Google Chrome via Live Server (VsCode).
    - Klik op de "Micro:bit linken" button rechts bovenin de HTML pagina om verbinding te maken met de Micro:bit.
-   - Wanneer de verbinding tot stand is gebracht, kun je de sensoren op de sensormodule gebruiken om de secties op je webpagina te veranderen.
-
-### Testen
-
-1. **Druk op de verschillende knoppen/sensoren** op de Tru Components TC-9072548 Sensormodule om te controleren of de corresponderende secties op de webpagina veranderen.
-2. **Controleer de console** in je browser om te zien of er gegevens van de Micro:bit worden ontvangen.
+   - Wanneer de verbinding tot stand is gebracht, kun je de kabeltjes gebruiken om de secties op je webpagina te veranderen (de sliders laten verspringen van 1 naar 2 naar 3 enzovoorts)
+   - Ga naar slide 1 bijvoorbeeld door de grond kabel (G) het draadje van PIN 1 aan te raken.
+   - Ga naar slide 2 bijvoorbeeld door de grond kabel (G) het draadje van PIN 1 aan te raken.
+   - Ga naar slide 3 bijvoorbeeld door de grond kabel (G) het draadje van PIN 1 aan te raken.
+   - Enzovoorts!
+   - **Controleer de console** in je browser om te zien of er gegevens van de Micro:bit worden ontvangen.
 
 <img src="documentatie/console-log-browser.png">
 
