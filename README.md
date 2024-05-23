@@ -1,4 +1,6 @@
-# Micro:bit uitbreiden met pinnen
+# Micro:bit uitbreiden met pinnen!
+
+https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1db22cac-5a21-40f8-b2c6-d2d7c5012b52
 
 Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de code te downloaden naar de Micro:bit met de aangesloten Tru Components TC-9072548 Sensormodule.
 
