@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.een {
+    background: purple;
+}
+
+.twee {
+    background: orange;
+}
+
+.drie {
+    background: green;
+}
+
+.vier {
+    background: darkred;
+}
+
+.vijf {
+    background: darkcyan;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    font-size: 300px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/* De button om toestemming te verlenen voor de USB poort */
+button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
