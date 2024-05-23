@@ -5,6 +5,26 @@ https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1
 
 Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de Micro:bit code te downloaden naar de Micro:bit met de aangesloten **Tru Components TC-9072548 Sensormodule** (hieronder meer daarover)
 
+## Voorkennis
+Als je dacht dat alleen Arduino's een heleboel pinnen hadden om hardware op aan te sluiten... De Micro:bit heeft er net zoveel, 22 pinnen! En het voordeel van de Micro:bit is ook nog eens dat er al veel hardware op zit die je als input kan gebruiken, zoals Bluetooth, bewegingssensoren, een speaker, compas, en een microfoon. En het heeft een veel simpelere editor.
+
+### Arduino Uno
+<img src="documentatie/arduino_schematics_pin.jpg">
+
+### Micro:bit
+<img src="documentatie/microbit-pinnen.png">
+
+## Breakout boards
+
+door een breakout board aan een microbit te klikken kunnen we bij deze 22 inputs. De pinnen voor deze inputs zitten dan op dit breakoutboard ook wel penmodule genoem. Voor dit project gebruikte ik de **Tru Components TC-9072548 Sensormodule** maar je kunt elk geschikte beakoutboard hiervoor gebruiken. Er zijn breaout boards in verschillende soorten en maten voor de Micro:bit, sommige van hen kun je drukken op een breadboard om jumper kabels in te steken.
+
+<img src="documentatie/TC-9072500_breakout_board.jpg">
+
+Voor deze tutorial heb ik zelf de Tru Components TC-9072548 Sensormodule gebruikt om de Micro:bit uit te breiden met pinnen. Hier liggen er ook een heleboel van bij de MakerSpace.
+
+<img src="documentatie/tru_components_TC.jpg">
+<img src="documentatie/aangesloten.png">
+
 ## Benodigdheden:
 
 - Een editor, bijvoorbeeld VSCode
@@ -303,19 +323,25 @@ in de code editor zien de blokken er zo uit nadat je de microbit code hebt gekop
 
 <img src="microbit-code.png" />
 
-#### 5. Micro:bit Verbinden met de Browser
+## 4. Micro:bit met module verbinden met de Browser
 
-1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit.
+1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit. Steek vervolgens jumperkabels op de gele pinnen, dus PIN0, PIN1, PIN2, PIN8 en PIN9. Steek vervolgens ook een jumperkabel op 1 van de donkerblauwe pinnen, maakt niet specifiek uit welke (helemaal onderaan op de foto hieronder) 
+
+PAS OP: steek niets in de rode pinnen!!
+
+<img src="documentatie/1200x1034.jpg">
 
 2. Verbinding Maken:
 
-   - Open je project in de browser via Live Server.
-   - Klik op de "Micro:bit linken" knop om verbinding te maken met de Micro:bit.
+   - Open je project in de browser via Live Server (VsCode).
+   - Klik op de "Micro:bit linken" button rechts bovenin de HTML pagina om verbinding te maken met de Micro:bit.
    - Wanneer de verbinding tot stand is gebracht, kun je de sensoren op de sensormodule gebruiken om de secties op je webpagina te veranderen.
 
 ### Testen
 
 1. **Druk op de verschillende knoppen/sensoren** op de Tru Components TC-9072548 Sensormodule om te controleren of de corresponderende secties op de webpagina veranderen.
 2. **Controleer de console** in je browser om te zien of er gegevens van de Micro:bit worden ontvangen.
+
+<img src="documentatie/1200x1034.jpg">
 
 Met deze stappen zou je project volledig functioneel moeten zijn. Als er problemen zijn, controleer dan de verbindingen en zorg ervoor dat je browser de Web Serial API ondersteunt.
