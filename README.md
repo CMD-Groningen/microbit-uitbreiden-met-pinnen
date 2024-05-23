@@ -1,5 +1,5 @@
 # Micro:bit uitbreiden met pinnen
-#### Verander de Micro:bit in een Arduino of Makey Makey
+### Verander de Micro:bit in een Arduino of Makey Makey
 
 https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1db22cac-5a21-40f8-b2c6-d2d7c5012b52
 
