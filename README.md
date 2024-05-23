@@ -342,6 +342,6 @@ PAS OP: steek niets in de rode pinnen!!
 1. **Druk op de verschillende knoppen/sensoren** op de Tru Components TC-9072548 Sensormodule om te controleren of de corresponderende secties op de webpagina veranderen.
 2. **Controleer de console** in je browser om te zien of er gegevens van de Micro:bit worden ontvangen.
 
-<img src="documentatie/1200x1034.jpg">
+<img src="documentatie/console-log-browser.png">
 
 Met deze stappen zou je project volledig functioneel moeten zijn. Als er problemen zijn, controleer dan de verbindingen en zorg ervoor dat je browser de Web Serial API ondersteunt.
