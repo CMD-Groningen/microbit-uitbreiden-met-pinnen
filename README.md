@@ -3,23 +3,23 @@
 
 https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1db22cac-5a21-40f8-b2c6-d2d7c5012b52
 
-Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de code te downloaden naar de Micro:bit met de aangesloten Tru Components TC-9072548 Sensormodule.
+Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de Micro:bit code te downloaden naar de Micro:bit met de aangesloten **Tru Components TC-9072548 Sensormodule** (hieronder meer daarover)
 
 ## Benodigdheden:
 
 - Een editor, bijvoorbeeld VSCode
-- Micro:bit
-- Tru Components TC-9072548 Sensormodule
+- een Micro:bit
+- een Tru Components TC-9072548 Sensormodule (pinnenbord)
 - Micro USB-kabel
 - 4 bestanden (een HTML, CSS en JavaScript bestand)
-- als je dit project dowload, zitten deze bestanden al in de folder **pintest-voorbeeld**)!!
+- als je dit project dowload, zitten deze bestanden al in de folder **pinmodule-voorbeeld**)!!
 - de HEX file met de code voor de Micro:bit
 
 
 
 ## 1. Voorbereiding
 
-Download de folder **pintest-voorbeeld** naar je laptop. Daar zitten de 3 bestanden al in die je nodig hebt (HTML, CSS en JavaScript) Of je maakt zelf een folder aan op je latop en plaats daar onderstaande bestanden in:
+Download de folder **pinmodule-voorbeeld** naar je laptop. Daar zitten de 3 bestanden al in die je nodig hebt (HTML, CSS en JavaScript) Of je maakt zelf een folder aan op je latop en plaats daar onderstaande bestanden in:
 
 #### 2. Bestanden Plaatsen
 
