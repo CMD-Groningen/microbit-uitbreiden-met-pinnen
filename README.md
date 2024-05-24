@@ -315,7 +315,7 @@ basic.forever(function () {
 ```
 in de code editor zien de blokken er zo uit nadat je de microbit code hebt gekopieerd:
 
-<img src="documentatie/blocks-pintest.png" style="max-width:70%" />
+<img src="documentatie/blocks-pintest.png" style="width:70%" />
 
 ## 4. Micro:bit met module verbinden met de Google Chrome browser
 
@@ -336,6 +336,6 @@ PAS OP: steek niets in de rode pinnen!!
    - Enzovoorts!
    - **Controleer de console** in je browser om te zien of er gegevens van de Micro:bit worden ontvangen.
 
-<img src="documentatie/console-log-browser.png">
+<img src="documentatie/console_log_browser.png">
 
 Met deze stappen zou je project volledig functioneel moeten zijn. Als er problemen zijn, controleer dan de verbindingen en zorg ervoor dat je browser de Web Serial API ondersteunt.
