@@ -3,6 +3,9 @@
 
 https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/assets/5694412/1db22cac-5a21-40f8-b2c6-d2d7c5012b52
 
+Bestanden **downloaden** naar je laptop? [Klik hier](https://github.com/CMD-Groningen/microbit-uitbreiden-met-pinnen/archive/refs/heads/master.zip)     
+
+
 In deze tutorial zit een werkend voorbeeld van hoe je een HTML pagina met interface elementen of andere content daarin (animaties, audio, video) kan bedienen of besturen met externe hardware, zoals fysieke knoppen, sliders of sensoren. We doen dit met een Micro:bit waarvan we de contactpunten uitbreiden. Hieronder staan de stappen die je kunt volgen om je project werkend te krijgen. Volg deze instructies om de bestanden te openen, te testen in de browser en de Micro:bit code te downloaden naar de Micro:bit met de aangesloten **Tru Components TC-9072548 breakout board** (hieronder meer daarover)
 
 ## Voorkennis
