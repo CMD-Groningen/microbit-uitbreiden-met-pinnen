@@ -315,7 +315,7 @@ basic.forever(function () {
 ```
 in de code editor zien de blokken er zo uit nadat je de microbit code hebt gekopieerd:
 
-<img src="documentatie/blocks-pintest.png" style="width:70%" />
+<img src="documentatie/blocks-pintest.png" />
 
 ## 4. Micro:bit met module verbinden met de Google Chrome browser
 
