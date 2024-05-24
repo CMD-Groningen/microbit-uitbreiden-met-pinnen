@@ -317,15 +317,15 @@ in de code editor zien de blokken er zo uit nadat je de microbit code hebt gekop
 
 <img src="documentatie/blocks-pintest.png" />
 
-## 4. Micro:bit met module verbinden met de Google Chrome browser
+## 4. Micro:bit met bet breakoutboard eraan verbinden met Google Chrome browser
 
-1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit. Steek vervolgens jumperkabels op de **gele pinnen, dus PIN0, PIN1, PIN2, PIN8 en PIN9**. Steek vervolgens 1 jumperkabel op 1 van de donkerblauwe pinnen, maakt niet specifiek uit welke (helemaal onderaan op de foto hieronder, waar staat "G") 
+1. **Sensormodule Aansluiten**: Verbind de Tru Components TC-9072548 Sensormodule aan de Micro:bit. Steek vervolgens jumperkabels op de **gele pinnen, dus PIN0, PIN1, PIN2, PIN8 en PIN9**. Steek vervolgens 1 jumperkabel op 1 van de **donkerblauwe pinnen**, maakt niet specifiek uit welke (helemaal onderaan op de foto hieronder, waar staat "G") 
 
-PAS OP: steek niets in de rode pinnen!!
+PAS OP: steek geen kabels in de rode pinnen! Die heb je alleen nodig als je stroom moet sturen naar andere hardware, zoals sensoren of draaimotoren!
 
 <img src="documentatie/1200x1034.jpg">
 
-## 5. Testen!
+## 5. En testen!
 
    - Open je project in Google Chrome via Live Server (VsCode).
    - Klik op de "Micro:bit linken" button rechts bovenin de HTML pagina om verbinding te maken met de Micro:bit.
